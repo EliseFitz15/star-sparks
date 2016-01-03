@@ -29,3 +29,7 @@ end
 
 gem 'devise'
 gem 'foundation-rails'
+
+group :test do
+  gem 'coveralls', require: false
+end
